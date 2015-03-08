@@ -1,0 +1,149 @@
+
+body{background-color: #f4f3f9;}
+#header{margin:0em;
+	overflow: hidden;
+		background-color:#3a3643;
+		color:#FFF;
+		height:3em;
+		border:1px solid #000;
+		width:100%;}
+/** Navigation Bar **/
+#nav{margin:-3.4em 0% 4.5em 30%; color:#FFF;cursor:pointer; }
+
+#nav li{float:left;
+			list-style: none;
+			padding:4px 0px;
+			width:7em;
+			text-align: center;}
+
+#nav li:hover{background-color:#6a6672;
+					-moz-transition:all 0.5s;
+					-webkit-transition:all 0.5s;}
+#nav li a{color:#FFF;
+			display:block;
+		text-decoration: none;}
+/** Slide Show **/
+.slide{
+		display: inline-block;
+		height:24.5em;
+		background-color: #FFF;
+		border:1px solid #FFF;
+		width:65%;}
+.slide img{width:17em;height:11em;}
+
+/** Search Function **/
+.search {
+			
+			width: 11%;
+			border: 1px solid #FFF;
+			float: right;
+
+		}
+		.search h4 {
+			color:#FFF;
+			text-align: center;
+			background: #04153d;
+			margin:0;
+			cursor: pointer;
+		}
+		.search h4:hover{background-color: #1344b1;}
+		.search h4.up {
+			color: #000;
+		}
+		.search ul{
+			
+			color: #000;
+			list-style: none;
+			padding:0em;
+
+		}
+		.search a{
+			text-decoration: none;
+			color:#000;
+			display: block;
+			font-size: 14px;
+		}
+		.search li:hover{background-color: #FFF;}
+
+/** Menu**/
+#detail{margin:1em;}
+#detail a{
+	background-color:#3462ca;border-radius:5px;
+					-moz-border-radius:5px;
+					-webkit-border-radius:5px;
+					cursor:pointer;height:3em;
+					color:#FFF;
+					padding:0.5em;
+				border:1px solid #FFF;}
+#detail a:hover{background-color:#4774da;
+			}
+#menu{margin:1em 0em 4em;margin-right: 0%;
+		background-color: #fff;
+		border:1px solid #FFF;
+		border-radius: 5px;
+		width:65%;}
+#menu:hover{border:1px solid #656a6e;box-shadow:5px 5px 10px #ccc;-moz-transition:all 0.5s;
+					-webkit-transition:all 0.5s;}		
+
+#menu a{text-decoration: none;
+				background-color:#3462ca;border-radius:5px;
+					-moz-border-radius:5px;
+					-webkit-border-radius:5px;
+					cursor:pointer;height:3em;
+					color:#FFF;
+					padding:0.3em 0.5em;
+				border:1px solid #FFF;
+				margin-left: 40em;
+			}
+#menu a:hover{background-color:#4774da;}
+#menu img{width:17em;height:12em;margin-left:27em;margin-bottom: -10em;margin-top:1em;}
+#info{margin:-1em 3em 1em;line-height: 20px;padding-left:1em;}
+/*Customer Register Form */
+#new label{display:block;padding-top:1em;}
+#new {margin:2em auto;border-top: 2px solid #000;border-bottom: 2px solid #000;width:100%;padding-left:35%;
+	background-color: #e3e2e6;}
+input[type=text],input[type=password],input[type=gmail],textarea{width:35em;height:3em;border-radius:5px;
+					-moz-border-radius:5px;
+					-webkit-border-radius:5px;}
+button{margin:1em;margin-left:75%;cursor:pointer;height:3em;background-color:#3462ca;border-radius:5px;
+					-moz-border-radius:5px;
+					-webkit-border-radius:5px;
+					
+				border:1px solid #FFF;}
+.staff a{text-decoration: none;color:#FFF;background-color:#3462ca;border-radius:5px;
+					-moz-border-radius:5px;
+					-webkit-border-radius:5px;
+					cursor:pointer;height:3em;
+					color:#FFF;
+					padding:0.5em;
+				border:1px solid #FFF;}
+.staff a:hover{background-color:#4774da;}
+input[type=submit]{margin-top:2em;
+					width:35em;height:3em;
+					cursor: pointer;
+					background-color:#3462ca;
+					color: #FFF;
+					border:1px solid #FFF;
+					border-radius:5px;
+					-moz-border-radius:5px;
+					-webkit-border-radius:5px;
+					}
+input[type=submit]:hover{background-color:#4774da;}
+
+
+
+/**error message**/
+
+label.error{font-size: 12px;
+	display:block;
+	position: absolute;
+	font-style: bold;
+	margin-top: -1em;
+	color:#FF0000;
+}
+
+#stflist{margin:2em;}
+#stflist th,td{height:3em;width:10em;text-align: center;background-color: #FFF;}
+
+#invoice{margin:5em 20%;background-color:#FFF;padding:2em 5em;border-radius: 5px;}
+#invoice table{border:1px solid #000;margin:0em auto;border-radius: 5px;}

@@ -1,0 +1,11 @@
+<?php
+session_start();
+unset($_SESSION['auth']);
+unset($_SESSION['stfid']);
+unset($_SESSION['stfname']);
+unset($_SESSION['cid']);
+unset($_SESSION['cname']);
+unset($_SESSION['admid']);
+unset($_SESSION['admname']);
+header("location:index.php");
+?>

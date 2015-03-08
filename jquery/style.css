@@ -1,0 +1,188 @@
+/** register form **/
+
+#jslogin,#jsform{
+    padding:1.5em;
+    padding-top: 2em;
+    padding-left: 8em;
+    margin:7em 17em 3em 17em;
+    background-color: #EAFFD6;
+}
+.setting{
+    padding:1.5em;
+    padding-top: 2em;
+    padding-left: 8em;
+    margin:-7px 4.1em 3em 30em;
+    background-color: #EAFFD6;
+}
+#jslogin h4,#jsform h4,.setting h4{
+        color:#FFF;
+        padding:0.5em;
+        text-align: center;
+        margin:0em 10em 0em 2em;
+        background-color: #F04848;
+        }
+#errorMesg{
+    padding:1.5em;
+    padding-top: 2em;
+    padding-left: 8em;
+    margin:7em 17em 0em 17em;
+}
+#errorMesg h5{
+        color:#FFF;
+        padding:0.5em;
+        text-align: center;
+        margin:-1.5em 0em -1em -8em;
+        background-color: #F04848;
+        border-radius: 5px;
+        -moz-border-radius:5px;
+        -mz-border-radius:5px;
+        -webkit-border-radius:5px;
+}
+#succMesg{
+    padding:1.5em;
+    padding-top: 2em;
+    padding-left: 8em;
+    margin:7em 30em 0em 5em;
+}
+#succMesg h5{
+        color:#FFF;
+        padding:0.5em;
+        text-align: center;
+        margin:-1.5em 0em -1em -8em;
+        background-color: #F04848;
+        border-radius: 5px;
+        -moz-border-radius:5px;
+        -mz-border-radius:5px;
+        -webkit-border-radius:5px;
+}
+/** post job form**/
+
+.job{
+    padding:1.5em;
+    padding-top: 2em;
+    padding-left: 8em;
+    margin:7em 30em 10em 5em;
+    background-color: #EAFFD6;
+}        
+
+.job h5{
+    padding:1em;padding-left:2.5em;
+    margin:0em -1.7em 0em -9.6em;
+    background-color: #FFF;
+}
+/** apply form**/
+.applyform{
+    padding:0em;
+    padding-top: 0em;
+    padding-left: 8em;
+    padding-bottom: 5em;
+    margin:7em 30em 10em 5em;
+    background-color: #EAFFD6;
+}
+.applyform h5{
+    text-align: center;
+    margin:0em 10em 5em 0em;
+    color:#FFF;
+    padding:3px;
+    background-color: #F04848;        
+}
+/** list description **/
+span{
+    color:#6785CE;
+        font-weight: bold;
+        margin:0em 0em 0em 21.4em;
+        cursor: pointer;}
+
+span:hover{color:#4CEDBF;}
+
+#job{
+    border:2px solid #4CEDBF;
+    padding:0em;margin:-60em 5em 0em 56em;
+    background-color: #F6F4F4;
+    position: fixed;
+    
+    }
+
+#job1{
+    border:2px solid #4CEDBF;
+    padding:0em;margin:-57.5em 5em 10em 56em;
+    background-color: #F6F4F4;
+    position: fixed;
+ 
+    }
+
+#job2{
+    border:2px solid #4CEDBF;
+    padding:0em;margin:-65em 5em 10em 56em;
+    background-color: #F6F4F4;
+    position: fixed;
+    }
+
+#job3{
+    border:2px solid #4CEDBF;
+    padding:0em;margin:-61em 5em 10em 56em;
+    background-color: #F6F4F4;
+    position: fixed;
+    }   
+
+
+#job ul,#job1 ul,#job2 ul,#job3 ul{font-size: 13px;
+        color:#000;  
+    }
+
+
+/** overview list **/
+#list{
+    margin:-70em 0em 0em 55em;
+    background-color: #6785CE;
+    padding:3em;
+    width:18em;
+    position: fixed;}
+
+#list ul{font-weight: bold;
+        color:#fff;
+        font-size: 14px;
+        line-height: 3em;
+        list-style:square;}
+
+#list ul li{cursor: pointer;}
+
+#list ul li:hover{color:#FFE06B;}
+
+
+/** register form **/
+#post input[type=text],#post input[type=password],#post select{width:33em;height:2.5em;}
+#post textarea{width:33em;height:7em;}
+#payment input[type=password]{width:33em;}
+
+#post label{font-size: 14px;margin-bottom: 2em;display:block;}
+
+#post{margin:2em 2em;}
+
+#form{
+        margin:-36.7em 5em 0em 40em;
+        background-color: #EAFFD6;
+        padding:3em;padding-bottom: 3.8em;
+
+    }
+#noti{margin:-75em 0em 0em 55em;
+ position: fixed;}
+
+/** detail result **/
+.detail{
+    margin:7em 30em 5em 5em;
+    background-color: #EAFFD6;
+    padding-bottom: 5em;
+}
+
+.detail i,h5{color: #6B6A66;}
+.detail h4{margin-left:5em;}
+.detail h5{margin-left: 8em;margin-right: 2em;}
+.detail h3{background-color: #F04848;
+    margin-right: 30em;
+    color:#FFF;
+    text-align: center;
+    }
+.detail hr{margin: 3em;color:#6B6A66;border:2px dashed #6B6A66;}
+.detail a{background-color: #CC8EE3;text-decoration: none;padding:4px;margin-left: 37em;}
+.detail a:hover{background-color: #0de0e3;}
